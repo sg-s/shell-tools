@@ -1,0 +1,62 @@
+#!/usr/bin/env python
+#
+# this python script is meant to be run when you're done with work
+# it goes over all your code folders, checks for dirty uncommitted code
+# and yells at you about it
+#
+
+from glob import glob
+import os
+from subprocess import Popen, PIPE, STDOUT
+
+
+# define parameters here
+code_root="/Users/srinivas/code/"
+url_patterns = ["sg-s","marderlab","inscopix"]
+
+alldirs = glob(code_root+"*/")
+
+print("Looking for code in: ")
+print(code_root)
+print("\n")
+
+print("Looking for code with remotes matching:")
+print(url_patterns)
+print("\n")
+
+
+dirty_dirs = []
+
+for i in range(1,len(alldirs)):
+	
+
+	# check if this is a git repository 
+	if os.path.isdir(alldirs[i]+'.git'):
+		
+
+		os.chdir(alldirs[i])
+
+
+		cmd = 'git remote -v'
+		p = Popen(cmd, shell=True, stdout=PIPE, close_fds=True)
+		output = p.stdout.read().decode()
+
+		for url_pat in url_patterns:
+			if output.find(url_pat) > 1:
+
+
+				# check if git repo is clean
+				cmd = "git status --porcelain"
+				p = Popen(cmd, shell=True, stdout=PIPE, close_fds=True)
+				output = p.stdout.read().decode()
+
+				if output.count('\n') > 0:
+
+					dirty_dirs.append(alldirs[i])
+
+if len(dirty_dirs) == 0:
+	print("All directories are clean!")
+else:
+	print("The following folders are dirty:")
+	for d in dirty_dirs:
+		print(d)

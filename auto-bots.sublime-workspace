@@ -1,0 +1,2124 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ex",
+				"example_V"
+			],
+			[
+				"par",
+				"parameter_names"
+			],
+			[
+				"target",
+				"target_freq"
+			],
+			[
+				"bur",
+				"burst_freq"
+			],
+			[
+				"I",
+				"I_ext"
+			],
+			[
+				"n",
+				"n_spikes_per_burst"
+			],
+			[
+				"up",
+				"updateParams"
+			],
+			[
+				"tra",
+				"transient_length"
+			],
+			[
+				"all",
+				"all_tests"
+			],
+			[
+				"Inte",
+				"IntegralController"
+			],
+			[
+				"com",
+				"compartment_names"
+			],
+			[
+				"down",
+				"downstream"
+			],
+			[
+				"con",
+				"controller_idx"
+			],
+			[
+				"cont",
+				"controller"
+			],
+			[
+				"controll",
+				"controller_idx"
+			],
+			[
+				"is",
+				"is_section"
+			],
+			[
+				"this",
+				"this_controller_line"
+			],
+			[
+				"cons",
+				"constructor_args"
+			],
+			[
+				"cont_",
+				"cont_id"
+			],
+			[
+				"orig",
+				"original_dt"
+			],
+			[
+				"E_idx_",
+				"E_idx_z"
+			],
+			[
+				"new",
+				"new_name"
+			],
+			[
+				"old",
+				"old_name"
+			],
+			[
+				"proc",
+				"process_idx"
+			],
+			[
+				"tau_",
+				"tau_m_ref"
+			],
+			[
+				"tau",
+				"tau_m_ref"
+			],
+			[
+				"de",
+				"delta_gbar"
+			],
+			[
+				"comp_pa",
+				"comp_param_hookups"
+			],
+			[
+				"closed",
+				"closed_loop"
+			],
+			[
+				"addCon",
+				"addController"
+			],
+			[
+				"the",
+				"these_names"
+			],
+			[
+				"file",
+				"fileparts"
+			],
+			[
+				"get",
+				"getChannelsInCompartment"
+			],
+			[
+				"struct",
+				"struct2vec"
+			],
+			[
+				"xol",
+				"xolotl_folder"
+			],
+			[
+				"cond",
+				"cond_name"
+			],
+			[
+				"fig",
+				"fig_id"
+			],
+			[
+				"mex",
+				"mexBridge_name"
+			],
+			[
+				"lined",
+				"linked_binary"
+			],
+			[
+				"V_",
+				"V_trace"
+			],
+			[
+				"para",
+				"parameters"
+			],
+			[
+				"syn",
+				"synapse_headers"
+			],
+			[
+				"eva",
+				"eval_str"
+			],
+			[
+				"add",
+				"addCompartment"
+			],
+			[
+				"names",
+				"compartment_names"
+			],
+			[
+				"compar",
+				"compartment_names"
+			],
+			[
+				"head",
+				"header_files"
+			],
+			[
+				"prop",
+				"properties"
+			],
+			[
+				"cell",
+				"cell_clamped"
+			],
+			[
+				"sigm",
+				"sigma_gE"
+			],
+			[
+				"pos",
+				"post_syn"
+			],
+			[
+				"inte",
+				"integrateSynapses"
+			],
+			[
+				"outp",
+				"output_V"
+			],
+			[
+				"integ",
+				"integrateChannels"
+			],
+			[
+				"comp",
+				"compartment"
+			],
+			[
+				"ini",
+				"initial_conditions"
+			],
+			[
+				"neu",
+				"neuron_parameters"
+			],
+			[
+				"Julia",
+				"Julia-typed"
+			],
+			[
+				"voltage",
+				"voltage_clamp"
+			],
+			[
+				"param",
+				"parameter_names"
+			],
+			[
+				"vol",
+				"voltage_clamp"
+			],
+			[
+				"to",
+				"toggleLogXAxis"
+			],
+			[
+				"plot",
+				"plot_control_string"
+			],
+			[
+				"make",
+				"makePlotsGUI"
+			],
+			[
+				"update",
+				"updatePlotLabels"
+			],
+			[
+				"plot_con",
+				"plot_control_string"
+			],
+			[
+				"model",
+				"model_props"
+			],
+			[
+				"resp",
+				"respplot"
+			],
+			[
+				"res",
+				"respplot"
+			],
+			[
+				"arg",
+				"argOutNames"
+			],
+			[
+				"bio",
+				"biophysicalModelEuler"
+			],
+			[
+				"MSG",
+				"MSG_data"
+			],
+			[
+				"stim",
+				"stimulus\t(makeFig9.m)"
+			],
+			[
+				"PID_",
+				"PID_width_err"
+			],
+			[
+				"this_",
+				"this_lfp"
+			],
+			[
+				"mean",
+				"mean_LFP"
+			],
+			[
+				"th",
+				"theta"
+			],
+			[
+				"all_",
+				"all_light_V"
+			],
+			[
+				"local",
+				"local-data"
+			],
+			[
+				"axes",
+				"axes_handles"
+			],
+			[
+				"inset",
+				"inset_font_size"
+			],
+			[
+				"peak",
+				"peak_loc_K_DA"
+			],
+			[
+				"in",
+				"inset"
+			],
+			[
+				"being",
+				"being_published"
+			],
+			[
+				"measured",
+				"measured_odour"
+			],
+			[
+				"odour",
+				"odour_background"
+			],
+			[
+				"exam",
+				"example_neuron"
+			],
+			[
+				"whiff",
+				"whiff_durations"
+			],
+			[
+				"whif",
+				"whiff_durations"
+			],
+			[
+				"his",
+				"history_lengths"
+			],
+			[
+				"globa",
+				"global_start"
+			],
+			[
+				"glo",
+				"global_start"
+			],
+			[
+				"frac",
+				"frac_gain_err"
+			],
+			[
+				"frac_",
+				"frac_gain_err"
+			],
+			[
+				"parad",
+				"paradigm"
+			],
+			[
+				"band",
+				"band_pass_x"
+			],
+			[
+				"base",
+				"base_gain"
+			],
+			[
+				"We",
+				"Weights"
+			],
+			[
+				"uni",
+				"unique"
+			],
+			[
+				"filt",
+				"filtered_LFP"
+			],
+			[
+				"bad",
+				"bad_trials"
+			],
+			[
+				"sub",
+				"subplot"
+			],
+			[
+				"example",
+				"example_dose"
+			],
+			[
+				"exampl",
+				"example_dose"
+			],
+			[
+				"Line",
+				"LineStyle\t(PaperFigures.m)"
+			],
+			[
+				"DA",
+				"DAModelv2\t(DAModelv2.m)"
+			],
+			[
+				"da",
+				"dataHash"
+			],
+			[
+				"LFP",
+				"LFP_pred"
+			],
+			[
+				"resh",
+				"reshaped_LFP"
+			],
+			[
+				"re",
+				"reshaped_PID"
+			],
+			[
+				"LFp",
+				"LFP_pred"
+			],
+			[
+				"eror",
+				"errorShade"
+			],
+			[
+				"off",
+				"offset_data"
+			],
+			[
+				"offset",
+				"offset_data"
+			],
+			[
+				"filter",
+				"filter_buffer"
+			],
+			[
+				"reshaped",
+				"reshaped_orn"
+			],
+			[
+				"reshap",
+				"reshaped_PID"
+			],
+			[
+				"block",
+				"block_size"
+			],
+			[
+				"fudg",
+				"fudge_factor_range"
+			],
+			[
+				"slid",
+				"sliding_LFP_exponent_err"
+			],
+			[
+				"sl",
+				"sliding_window"
+			],
+			[
+				"sli",
+				"sliding_LFP_exponent"
+			],
+			[
+				"LFP_",
+				"LFP_pred"
+			],
+			[
+				"filte",
+				"filter_offset"
+			],
+			[
+				"filter_",
+				"filter_buffer"
+			],
+			[
+				"fil",
+				"filter_offset"
+			],
+			[
+				"ban",
+				"band_pass_y"
+			],
+			[
+				"window",
+				"window_length"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "pyrepo",
+			"settings":
+			{
+				"buffer_size": 1710,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "conda-new",
+			"settings":
+			{
+				"buffer_size": 691,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/template.ipynb",
+			"settings":
+			{
+				"buffer_size": 1209,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					4,
+					1,
+					"insert",
+					{
+						"characters": "\n\n\n"
+					},
+					"CQAAAKoAAAAAAAAAqwAAAAAAAAAAAAAAqwAAAAAAAACuAAAAAAAAAAAAAACuAAAAAAAAAK8AAAAAAAAAAAAAAK8AAAAAAAAAsAAAAAAAAAAAAAAAsAAAAAAAAAC0AAAAAAAAAAAAAACrAAAAAAAAAKsAAAAAAAAABAAAACAgICCwAAAAAAAAALEAAAAAAAAAAAAAALEAAAAAAAAAtQAAAAAAAAAAAAAArAAAAAAAAACsAAAAAAAAAAQAAAAgICAg",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAKoAAAAAAAAAqgAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					6,
+					1,
+					"reindent",
+					null,
+					"AQAAAKwAAAAAAAAAsAAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAKwAAAAAAAAArAAAAAAAAAAAAAAAAIBEQA"
+				],
+				[
+					7,
+					1,
+					"insert_snippet",
+					{
+						"contents": "\"$0\""
+					},
+					"AgAAALAAAAAAAAAAsgAAAAAAAAAAAAAAswAAAAAAAACzAAAAAAAAAAQAAAAgICAg",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAALAAAAAAAAAAsAAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					8,
+					1,
+					"paste",
+					null,
+					"AQAAALEAAAAAAAAA0wAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAALEAAAAAAAAAsQAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					12,
+					1,
+					"insert",
+					{
+						"characters": "\""
+					},
+					"AQAAAMUAAAAAAAAAxgAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAMUAAAAAAAAAxQAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					15,
+					1,
+					"insert",
+					{
+						"characters": "\t\""
+					},
+					"AgAAAMcAAAAAAAAAywAAAAAAAAAAAAAAywAAAAAAAADMAAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAMcAAAAAAAAAxwAAAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					19,
+					1,
+					"insert",
+					{
+						"characters": ","
+					},
+					"AQAAAMYAAAAAAAAAxwAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAMYAAAAAAAAAxgAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					21,
+					1,
+					"insert",
+					{
+						"characters": ","
+					},
+					"AQAAANsAAAAAAAAA3AAAAAAAAAAAAAAA",
+					"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAANsAAAAAAAAA2wAAAAAAAAAAAAAAAEBxQA"
+				],
+				[
+					6,
+					1,
+					"insert",
+					{
+						"characters": "\\n"
+					},
+					"AgAAAMUAAAAAAAAAxgAAAAAAAAAAAAAAxgAAAAAAAADHAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAxQAAAAAAAADFAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					10,
+					1,
+					"insert",
+					{
+						"characters": "\\n"
+					},
+					"AgAAANwAAAAAAAAA3QAAAAAAAAAAAAAA3QAAAAAAAADeAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA3AAAAAAAAADcAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 207.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ren",
+				"Rename File"
+			],
+			[
+				"renam",
+				"File: Rename"
+			],
+			[
+				"re",
+				"File: Rename"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pckage",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"extract ",
+				"Extract Sublime Package: Extract all packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"git push",
+				"git: push"
+			],
+			[
+				"git stage",
+				"git: quick stage current file and commit"
+			],
+			[
+				"git: diff",
+				"git: diff current file inline"
+			],
+			[
+				"git:diff c",
+				"git: diff current file inline"
+			],
+			[
+				"gitsavv",
+				"GitSavvy: help"
+			],
+			[
+				"git bl",
+				"git: blame current file"
+			],
+			[
+				"git diff",
+				"git: diff"
+			],
+			[
+				"git di",
+				"git: diff current file inline"
+			],
+			[
+				"git",
+				"git: status"
+			],
+			[
+				"gitsa",
+				"GitSavvy: help"
+			],
+			[
+				"packa",
+				"Package Control: Discover Packages"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"Package Control: Remove Package"
+			],
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"Packa",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"Package",
+				"Package Control: Install Package"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"save",
+				"File: Save All"
+			],
+			[
+				"newfile",
+				"File: New View into File"
+			],
+			[
+				"sidebar",
+				"View: Toggle Side Bar"
+			],
+			[
+				"syntax js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syntax matlb",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"Package Control: Install",
+				"Package Control: Install Package"
+			],
+			[
+				"disp",
+				"Snippet: disp"
+			],
+			[
+				"error",
+				"Snippet: error"
+			],
+			[
+				"Snippet: error",
+				"Snippet: error"
+			]
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/srinivas/code/auto-bots",
+		"/Users/srinivas/code/auto-bots/assets"
+	],
+	"file_history":
+	[
+		"/Users/srinivas/code/auto-bots/.git/COMMIT_EDITMSG",
+		"/Users/srinivas/code/auto-bots/assets/python-pre-commit-hook",
+		"/Users/srinivas/code/auto-bots/matrepo",
+		"/Users/srinivas/code/auto-bots/pyrepo",
+		"/Users/srinivas/code/auto-bots/assets/python-gitignore.txt",
+		"/Users/srinivas/code/auto-bots/assets/python-update-version.py",
+		"/Users/srinivas/code/auto-bots/assets/template.ipynb",
+		"/Users/srinivas/code/auto-bots/assets/main.yml",
+		"/Users/srinivas/code/lammel-lab/.git/COMMIT_EDITMSG",
+		"/Users/srinivas/code/lammel-lab/.github/workflows/main.yml",
+		"/Users/srinivas/code/lammel-lab/.git/hooks/pre-commit",
+		"/Users/srinivas/code/auto-bots/gp",
+		"/Users/srinivas/code/auto-bots/gitloc",
+		"/Users/srinivas/code/auto-bots/git-check-ssh",
+		"/Users/srinivas/code/auto-bots/conda-new",
+		"/private/etc/inscopix",
+		"/Users/srinivas/code/isx-python-api-simple-install/test.sh",
+		"/Users/srinivas/code/isx-python-api-simple-install/.git/COMMIT_EDITMSG",
+		"/Users/srinivas/code/auto-bots/README.md",
+		"/Users/srinivas/code/isx-python-api-simple-install/test.py",
+		"/Users/srinivas/code/auto-bots/conda-rm",
+		"/Users/srinivas/code/auto-bots/assets/setup.py.template",
+		"/Users/srinivas/code/pdflib/.git/hooks/pre-commit",
+		"/Users/srinivas/code/srinivas.gs_mtools/.git/COMMIT_EDITMSG",
+		"/etc/auto_master",
+		"/etc/autofs.conf",
+		"/private/etc/auto_home",
+		"/etc/inscopix",
+		"/private/etc/autofs.conf",
+		"/Users/srinivas/code/isxcore/.git/COMMIT_EDITMSG",
+		"/Users/srinivas/code/isxcore/.git/hooks/pre-commit",
+		"/Users/srinivas/code/isxcore/tests/run_tests.sh",
+		"/Applications/Inscopix Data Processing.app/Contents/API/Python/isx/environment.yml",
+		"/Users/srinivas/code/isx-python-api-simple-install/setup.py",
+		"/Users/srinivas/code/isx-python-api-simple-install/README.md",
+		"/Applications/Inscopix Data Processing.app/Contents/API/Python/setup.py",
+		"/Users/srinivas/code/auto-bots/git-stat",
+		"/Users/srinivas/code/test/setup.py",
+		"/Users/srinivas/code/pdflib/.gitignore",
+		"/Users/srinivas/code/auto-bots/check-servers",
+		"/Users/srinivas/code/auto-bots/clean",
+		"/Users/srinivas/code/auto-bots/copy-fonts",
+		"/Users/srinivas/code/auto-bots/servers.txt",
+		"/Users/srinivas/code/auto-bots/.gitignore",
+		"/Users/srinivas/code/auto-bots/cpu-usage",
+		"/Users/srinivas/GoogleDrive/code/auto-bots/resize-for-ios",
+		"/Users/srinivas/GoogleDrive/code/whats-cooking/README.md",
+		"/Users/srinivas/GoogleDrive/code/auto-bots/leave",
+		"/Users/srinivas/GoogleDrive/code/auto-bots/.git/COMMIT_EDITMSG",
+		"/tmp/crontab.qT7cicDRsq",
+		"/tmp/crontab.mhVgjpWi8m",
+		"/tmp/crontab.LtEoEbF9lN",
+		"/tmp/crontab.SNHQKHIp0U",
+		"/tmp/crontab.6RvzKXKVNg",
+		"/Users/srinivas/GoogleDrive/code/crabsort/.git/COMMIT_EDITMSG",
+		"/Users/srinivas/GoogleDrive/code/high-k/.git/COMMIT_EDITMSG",
+		"/Users/srinivas/GoogleDrive/code/srinivas.gs_mtools/.git/COMMIT_EDITMSG",
+		"/Users/srinivas/GoogleDrive/code/auto-bots/where-am-i.py",
+		"/Users/srinivas/GoogleDrive/code/auto-bots/papers-sync",
+		"/Users/srinivas/Google Drive/code/asimov/asimov/get_boring_papers_from_rss.py",
+		"/Users/srinivas/dalek",
+		"/Users/srinivas/Google Drive/code/procrustes/tests/test_ext_func.m",
+		"/Users/srinivas/Google Drive/code/procrustes/tests/slow_neuron.m",
+		"/Users/srinivas/Google Drive/code/procrustes/tests/test_duty_cycle.m",
+		"/Users/srinivas/Google Drive/code/procrustes/tests/test_plot_func.m",
+		"/Users/srinivas/Google Drive/code/procrustes/@procrustes/procrustes.m",
+		"/code/auto-bots/leave",
+		"/tmp/subl stdin IdukdY.txt",
+		"/Volumes/Mirkwood/zoidberg/phasify.m",
+		"/Users/srinivas/Google Drive/code/procrustes/slow_neuron.m",
+		"/Users/srinivas/Google Drive/code/procrustes/test_plot_func.m",
+		"/Users/srinivas/Google Drive/code/procrustes/test_duty_cycle.m",
+		"/Users/srinivas/Google Drive/code/procrustes/test_ext_func.m",
+		"/Users/srinivas/Google Drive/code/procrustes/@procrustes/dutyCycle.m",
+		"/Users/srinivas/Google Drive/code/procrustes/@procrustes/findBurstMetrics.m",
+		"/Users/srinivas/Google Drive/code/procrustes/@procrustes/proc_example_fun.m",
+		"/Users/srinivas/Google Drive/code/procrustes/tests/proc_example_fun.m",
+		"/Users/srinivas/Google Drive/code/procrustes/README.md",
+		"/Users/srinivas/Google Drive/code/procrustes/proc_example_fun.m",
+		"/Users/srinivas/Google Drive/code/procrustes/.git/COMMIT_EDITMSG",
+		"/Users/srinivas/Google Drive/code/procrustes/test.m",
+		"/Users/srinivas/Google Drive/code/procrustes/@procrustes/nSpikesPerBurst.m",
+		"/Users/srinivas/Google Drive/code/procrustes/@procrustes/burstPeriod.m",
+		"/Users/srinivas/Google Drive/code/procrustes/procrustes.m",
+		"/Users/srinivas/Google Drive/code/procrustes/findBurstMetrics.m",
+		"/Users/srinivas/Google Drive/code/procrustes/burstPeriod.m",
+		"/Users/srinivas/Google Drive/code/procrustes/minV.m",
+		"/Users/srinivas/Google Drive/code/procrustes/maxV.m",
+		"/Users/srinivas/Google Drive/code/procrustes/.gitingore",
+		"/Users/srinivas/Google Drive/code/xolotl/@xolotl/addSushiController.m",
+		"/Users/srinivas/Google Drive/code/xolotl/c++/mexTemplate.cpp",
+		"/Users/srinivas/Google Drive/code/xolotl/c++/controller.hpp",
+		"/Users/srinivas/Google Drive/code/xolotl/c++/controllers/SushiController.hpp",
+		"/Users/srinivas/Google Drive/code/xolotl/@xolotl/xolotl.m",
+		"/Users/srinivas/Google Drive/code/xolotl/tests/run_all_tests.m",
+		"/Users/srinivas/Google Drive/code/xolotl/tests/test_stg.m",
+		"/Users/srinivas/Google Drive/code/xolotl/tests/test_prinz.m",
+		"/Users/srinivas/Google Drive/code/xolotl/tests/test_integral_control.m",
+		"/Users/srinivas/Google Drive/code/xolotl/tests/test_inject.m",
+		"/Users/srinivas/Google Drive/code/xolotl/dev/pre-commit",
+		"/Users/srinivas/Google Drive/code/xolotl/tests/test_sushi.m",
+		"/Users/srinivas/Google Drive/code/xolotl/tests/test_tim.m",
+		"/Users/srinivas/Google Drive/code/xolotl/tests/g++/integrateN7_standalone.cpp",
+		"/Users/srinivas/Google Drive/code/xolotl/.git/COMMIT_EDITMSG",
+		"/Users/srinivas/Google Drive/code/xolotl/@xolotl/findSpikes.m",
+		"/Users/srinivas/Google Drive/code/xolotl/@xolotl/findBurstMetrics.m",
+		"/Users/srinivas/Google Drive/code/xolotl/c++/compartment.hpp",
+		"/Users/srinivas/Google Drive/code/xolotl/c++/controllers/IntegralController.hpp",
+		"/Users/srinivas/Google Drive/code/xolotl/c++/synapses/Electrical.hpp",
+		"/Users/srinivas/Google Drive/code/xolotl/docs/matlab/README.md",
+		"/Users/srinivas/Google Drive/code/xolotl/@xolotl/slice.m",
+		"/Users/srinivas/Google Drive/code/xolotl/@xolotl/transpile.m",
+		"/Users/srinivas/Google Drive/code/xolotl/c++/conductances/liu/NaV.hpp",
+		"/Users/srinivas/Google Drive/code/xolotl/c++/conductances/soto-trevino/NaV.hpp",
+		"/Users/srinivas/Google Drive/code/xolotl/@xolotl/addIntegralController.m",
+		"/Users/srinivas/Google Drive/code/xolotl/@xolotl/plot.m",
+		"/Users/srinivas/Google Drive/code/xolotl/@xolotl/addConductance.m",
+		"/Users/srinivas/Google Drive/code/xolotl/@xolotl/addCompartment.m",
+		"/Users/srinivas/Google Drive/code/xolotl/temp.txt",
+		"/Users/srinivas/Google Drive/code/xolotl/.git/hooks/pre-commit",
+		"/Users/srinivas/Google Drive/code/xolotl/@xolotl/view.m",
+		"/Users/srinivas/Google Drive/code/xolotl/@xolotl/optimize.m",
+		"/Users/srinivas/Google Drive/code/xolotl/@xolotl/removeAllControllers.m",
+		"/Users/srinivas/Google Drive/code/xolotl/@xolotl/serialize.m",
+		"/Users/srinivas/Google Drive/code/xolotl/findCPPClassMembers.m",
+		"/Users/srinivas/Google Drive/code/xolotl/@xolotl/addController.m",
+		"/Users/srinivas/Google Drive/code/xolotl/@xolotl/getConductances.m",
+		"/Users/srinivas/Google Drive/code/xolotl/@xolotl/getChannelsInCompartment.m"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 167.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"conda",
+			"notebook",
+			"PYVERSON",
+			"$1",
+			"$0",
+			"icon1024.png",
+			"sigbhu"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": false,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "pyrepo",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1710,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								379,
+								379
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ShellScript/Bash.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 49.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "conda-new",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 691,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								691,
+								691
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ShellScript/Bash.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "assets/template.ipynb",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1209,
+						"regions":
+						{
+							"rb_l0_JSON":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										0,
+										1
+									],
+									[
+										1207,
+										1208
+									]
+								],
+								"scope": "JSON.l0.rb"
+							},
+							"rb_l1_JSON":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										12,
+										13
+									],
+									[
+										700,
+										701
+									],
+									[
+										716,
+										717
+									],
+									[
+										1167,
+										1168
+									]
+								],
+								"scope": "JSON.l1.rb"
+							},
+							"rb_l2_JSON":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										16,
+										17
+									],
+									[
+										697,
+										698
+									],
+									[
+										731,
+										732
+									],
+									[
+										784,
+										785
+									],
+									[
+										803,
+										804
+									],
+									[
+										896,
+										897
+									],
+									[
+										918,
+										919
+									],
+									[
+										1164,
+										1165
+									]
+								],
+								"scope": "JSON.l2.rb"
+							},
+							"rb_l3_JSON":
+							{
+								"flags": 272,
+								"regions":
+								[
+									[
+										134,
+										135
+									],
+									[
+										135,
+										136
+									],
+									[
+										152,
+										153
+									],
+									[
+										153,
+										154
+									],
+									[
+										169,
+										170
+									],
+									[
+										693,
+										694
+									],
+									[
+										736,
+										737
+									],
+									[
+										780,
+										781
+									],
+									[
+										942,
+										943
+									],
+									[
+										987,
+										988
+									]
+								],
+								"scope": "JSON.l3.rb"
+							}
+						},
+						"selection":
+						[
+							[
+								282,
+								282
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JSON/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 71.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.GitSavvy":
+	{
+		"height": 126.0
+	},
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.black":
+	{
+		"height": 162.0
+	},
+	"output.find_results":
+	{
+		"height": 445.0
+	},
+	"pinned_build_system": "",
+	"project": "auto-bots.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"tem",
+				"assets/template.ipynb"
+			],
+			[
+				"cond",
+				"conda-new"
+			],
+			[
+				"pyre",
+				"pyrepo"
+			],
+			[
+				"pu",
+				"assets/python-update-version.py"
+			],
+			[
+				"py",
+				"pyrepo"
+			],
+			[
+				"giti",
+				"assets/python-gitignore.txt"
+			],
+			[
+				"mat",
+				"matrepo"
+			],
+			[
+				"pyr",
+				"pyrepo"
+			],
+			[
+				"read",
+				"README.md"
+			],
+			[
+				"set",
+				"assets/setup.py.template"
+			],
+			[
+				"pre-",
+				"assets/python-pre-commit-hook"
+			],
+			[
+				"pre",
+				"assets/python-pre-commit-hook"
+			],
+			[
+				"lea",
+				"leave"
+			],
+			[
+				".gi",
+				".gitignore"
+			],
+			[
+				"pro",
+				"@procrustes/procrustes.m"
+			],
+			[
+				"bur",
+				"@procrustes/findBurstMetrics.m"
+			],
+			[
+				"findb",
+				"@procrustes/findBurstMetrics.m"
+			],
+			[
+				"du",
+				"@procrustes/dutyCycle.m"
+			],
+			[
+				"burs",
+				"@procrustes/findBurstMetrics.m"
+			],
+			[
+				"find",
+				"@procrustes/findBurstMetrics.m"
+			],
+			[
+				".git",
+				".gitingore"
+			],
+			[
+				"mex",
+				"c++/mexTemplate.cpp"
+			],
+			[
+				"stan",
+				"tests/g++/integrateN7_standalone.cpp"
+			],
+			[
+				"test",
+				"tests/test_tim.m"
+			],
+			[
+				"te",
+				"tests/test_sushi.m"
+			],
+			[
+				"run",
+				"tests/run_all_tests.m"
+			],
+			[
+				"test_stg",
+				"tests/test_stg.m"
+			],
+			[
+				"test_pr",
+				"tests/test_prinz.m"
+			],
+			[
+				"test_int",
+				"tests/test_integral_control.m"
+			],
+			[
+				"test_inj",
+				"tests/test_inject.m"
+			],
+			[
+				"xol",
+				"@xolotl/xolotl.m"
+			],
+			[
+				"int",
+				"c++/controllers/IntegralController.hpp"
+			],
+			[
+				"in",
+				"c++/controllers/IntegralController.hpp"
+			],
+			[
+				"inte",
+				"c++/controllers/IntegralController.hpp"
+			],
+			[
+				"test_inte",
+				"tests/test_integral_control.m"
+			],
+			[
+				"testinte",
+				"tests/test_integral_control.m"
+			],
+			[
+				"matlab",
+				"docs/matlab/README.md"
+			],
+			[
+				"elec",
+				"c++/synapses/Electrical.hpp"
+			],
+			[
+				"com",
+				"c++/compartment.hpp"
+			],
+			[
+				"con",
+				"c++/controller.hpp"
+			],
+			[
+				"adds",
+				"@xolotl/addSushiController.m"
+			],
+			[
+				"liu/na",
+				"c++/conductances/liu/NaV.hpp"
+			],
+			[
+				"nav",
+				"c++/conductances/soto-trevino/NaV.hpp"
+			],
+			[
+				"sush",
+				"c++/controllers/SushiController.hpp"
+			],
+			[
+				"cont",
+				"c++/controller.hpp"
+			],
+			[
+				"te_in",
+				"tests/test_integral_control.m"
+			],
+			[
+				"tran",
+				"@xolotl/transpile.m"
+			],
+			[
+				"tes_in",
+				"tests/test_integral_control.m"
+			],
+			[
+				"slic",
+				"@xolotl/slice.m"
+			],
+			[
+				"sus",
+				"c++/controllers/SushiController.hpp"
+			],
+			[
+				"addsu",
+				"@xolotl/addSushiController.m"
+			],
+			[
+				"tes_su",
+				"tests/test_sushi.m"
+			],
+			[
+				"plot",
+				"@xolotl/plot.m"
+			],
+			[
+				"addain",
+				"@xolotl/addIntegralController.m"
+			],
+			[
+				"add",
+				"@xolotl/addCompartment.m"
+			],
+			[
+				"remo",
+				"@xolotl/removeAllControllers.m"
+			],
+			[
+				"vi",
+				"@xolotl/view.m"
+			],
+			[
+				"test_s",
+				"tests/test_sushi.m"
+			],
+			[
+				"cpp",
+				"findCPPClassMembers.m"
+			],
+			[
+				"addin",
+				"@xolotl/addIntegralController.m"
+			],
+			[
+				"trans",
+				"@xolotl/transpile.m"
+			],
+			[
+				"test_in",
+				"tests/test_integral_control.m"
+			],
+			[
+				"ser",
+				"@xolotl/serialize.m"
+			],
+			[
+				"get",
+				"@xolotl/getConductances.m"
+			],
+			[
+				"getcon",
+				"@xolotl/getChannelsInCompartment.m"
+			],
+			[
+				"gen",
+				"@xolotl/genControllers.m"
+			],
+			[
+				"test_on",
+				"tests/test_integral_control.m"
+			],
+			[
+				"tem.xol",
+				"tests/temp.xolotl"
+			],
+			[
+				"serialize",
+				"@xolotl/serialize.m"
+			],
+			[
+				"hash",
+				"@xolotl/hash.m"
+			],
+			[
+				"addcon",
+				"@xolotl/addController.m"
+			],
+			[
+				"test_su",
+				"tests/test_sushi.m"
+			],
+			[
+				"test_slice",
+				"tests/test_slice.m"
+			],
+			[
+				"clamp",
+				"tests/test_clamp.m"
+			],
+			[
+				"remc",
+				"@xolotl/removeCompartment.m"
+			],
+			[
+				"xopy",
+				"@xolotl/copy.m"
+			],
+			[
+				"addcom",
+				"@xolotl/addCompartment.m"
+			],
+			[
+				"slice",
+				"@xolotl/slice.m"
+			],
+			[
+				"mi",
+				"c++/conductances/caplan/MICurrent.hpp"
+			],
+			[
+				"re",
+				"@xolotl/removeCompartment.m"
+			],
+			[
+				"tes",
+				"tests/test_stg.m"
+			],
+			[
+				"rem",
+				"@xolotl/removeCompartment.m"
+			],
+			[
+				"xo",
+				"@xolotl/xolotl.m"
+			],
+			[
+				"docs",
+				"docs/matlab.md"
+			],
+			[
+				"nap",
+				"c++/conductances/soto-trevino/NaP.hpp"
+			],
+			[
+				"hc",
+				"c++/conductances/liu/HCurrent.hpp"
+			],
+			[
+				"kd",
+				"c++/conductances/prinz/Kd.hpp"
+			],
+			[
+				"acurr",
+				"c++/conductances/liu/ACurrent.hpp"
+			],
+			[
+				"kca",
+				"c++/conductances/liu/KCa.hpp"
+			],
+			[
+				"na",
+				"c++/conductances/liu/NaV.hpp"
+			],
+			[
+				"cas",
+				"c++/conductances/liu/CaS.hpp"
+			],
+			[
+				"cat",
+				"c++/conductances/liu/CaT.hpp"
+			],
+			[
+				"ad",
+				"@xolotl/addController.m"
+			],
+			[
+				"getchannelsincompartment",
+				"@xolotl/getChannelsInCompartment.m"
+			],
+			[
+				"",
+				"c++/mexTemplate.cpp"
+			],
+			[
+				"x",
+				"@xolotl/xolotl.m"
+			],
+			[
+				"c",
+				"c++/conductance.hpp"
+			],
+			[
+				"test_",
+				"tests/test_integral_control.m"
+			],
+			[
+				"net",
+				"c++/network.hpp"
+			],
+			[
+				"test_c",
+				"tests/test_integral_control.m"
+			],
+			[
+				"seri",
+				"@xolotl/serialize.m"
+			],
+			[
+				"addsy",
+				"@xolotl/addSynapse.m"
+			],
+			[
+				"mext",
+				"c++/mexTemplate.cpp"
+			],
+			[
+				"compile",
+				"@xolotl/compile.m"
+			],
+			[
+				"glu",
+				"c++/synapses/prinz/Glutamatergic.hpp"
+			],
+			[
+				"chol",
+				"c++/synapses/prinz/Cholinergic.hpp"
+			],
+			[
+				"glut",
+				"c++/synapses/prinz/Glutamatergic.hpp"
+			],
+			[
+				"mexbr",
+				"mexBridge680678.cpp"
+			],
+			[
+				"mexte",
+				"c++/mexTemplate.cpp"
+			],
+			[
+				"sy",
+				"c++/synapse.hpp"
+			],
+			[
+				"addsyn",
+				"@xolotl/addSynapse.m"
+			],
+			[
+				"dev",
+				"dev/pre-commit"
+			],
+			[
+				"integ",
+				"tests/g++/integrateN7_standalone.cpp"
+			],
+			[
+				"mani",
+				"@xolotl/manipulateEvaluate.m"
+			],
+			[
+				"man",
+				"@xolotl/manipulate.m"
+			],
+			[
+				"intc",
+				"c++/controllers/IntController.hpp"
+			],
+			[
+				"syn",
+				"c++/synapse.hpp"
+			],
+			[
+				"compa",
+				"c++/compartment.hpp"
+			],
+			[
+				"compar",
+				"c++/compartment.hpp"
+			],
+			[
+				"cpom",
+				"@xolotl/compile.m"
+			],
+			[
+				"t",
+				"tests/test_stg.m"
+			],
+			[
+				"test_clam",
+				"tests/test_clamp.m"
+			],
+			[
+				"integr",
+				"tests/g++/integrateN7_standalone.cpp"
+			],
+			[
+				"prinz/ca",
+				"conductances/prinz/CaT.hpp"
+			],
+			[
+				"b0",
+				"mexBridgef6b0e7.cpp"
+			],
+			[
+				"nat",
+				"conductances/lin/NaT.hpp"
+			],
+			[
+				"ele",
+				"synapses/Electrical.hpp"
+			],
+			[
+				"cho",
+				"synapses/prinz/Cholinergic.hpp"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "uf",
+		"selected_items":
+		[
+			[
+				"uf",
+				"~/code/uflix/uflix.sublime-project"
+			],
+			[
+				"",
+				"~/code/uflix/uflix.sublime-project"
+			],
+			[
+				"srin",
+				"~/code/srinivas.gs/srinivas.gs.sublime-project"
+			],
+			[
+				"lon",
+				"~/code/longo-lab/longo-lab.sublime-project"
+			],
+			[
+				"lam",
+				"~/code/lammel-lab/lammel-lab.sublime-project"
+			],
+			[
+				"au",
+				"~/code/auto-bots/auto-bots.sublime-project"
+			],
+			[
+				"lamm",
+				"~/code/lammel-lab/lammel-lab.sublime-project"
+			],
+			[
+				"under",
+				"~/code/understanging-deconvolution/understanging-deconvolution.sublime-project"
+			],
+			[
+				"fast",
+				"~/code/fast-tracker-python/fast-tracker-python.sublime-project"
+			],
+			[
+				"pyth",
+				"~/code/fast-tracker-python/fast-tracker-python.sublime-project"
+			],
+			[
+				"py",
+				"~/code/fast-tracker-python/fast-tracker-python.sublime-project"
+			],
+			[
+				"mou",
+				"~/code/mouse-tracker/mouse-tracker.sublime-project"
+			],
+			[
+				"pdf",
+				"~/code/pdflib/pdflib.sublime-project"
+			],
+			[
+				"isxco",
+				"~/code/isxcore/isxcore.sublime-project"
+			],
+			[
+				"isx",
+				"~/code/isxcore/isxcore.sublime-project"
+			],
+			[
+				"pyc",
+				"~/code/pycore/pycore.sublime-project"
+			],
+			[
+				"as",
+				"~/code/astellas-acc/astellas.sublime-project"
+			],
+			[
+				"stg-",
+				"~/GoogleDrive/code/stg-embedding/stg-embedding.sublime-project"
+			],
+			[
+				"stg",
+				"~/GoogleDrive/code/stg-embedding/stg-embedding.sublime-project"
+			],
+			[
+				"sns",
+				"~/GoogleDrive/code/xolotl/sns.sublime-project"
+			],
+			[
+				"xol",
+				"~/GoogleDrive/code/xolotl-paper/xolotl-paper.sublime-workspace"
+			],
+			[
+				"siz",
+				"~/GoogleDrive/code/size-control/size-control.sublime-project"
+			],
+			[
+				"ps",
+				"~/Google Drive/code/psychopomp/psychopomp.sublime-project"
+			],
+			[
+				"sn",
+				"~/Google Drive/code/xolotl/sns.sublime-project"
+			],
+			[
+				"p",
+				"~/Google Drive/code/psychopomp/psychopomp.sublime-project"
+			],
+			[
+				"psy",
+				"~/Google Drive/code/psychopomp/psychopomp.sublime-project"
+			],
+			[
+				"meth",
+				"~/Google Drive/code/methods-paper/methods-paper.sublime-project"
+			],
+			[
+				"xo",
+				"~/Google Drive/code/xolotl/sns.sublime-project"
+			],
+			[
+				"cal",
+				"~/Google Drive/code/calcium-microdomain/calcium-microdomain.sublime-project"
+			],
+			[
+				"mc",
+				"~/Google Drive/code/Multicore-TSNE/multicore-tsne.sublime-project"
+			],
+			[
+				"zoid",
+				"~/Google Drive/code/zoidberg/zoidberg.sublime-project"
+			],
+			[
+				"mul",
+				"~/Google Drive/code/Multicore-TSNE/multicore-tsne.sublime-project"
+			],
+			[
+				"si",
+				"~/Google Drive/code/size-control/size-control.sublime-project"
+			],
+			[
+				"ca",
+				"~/Google Drive/code/calcium-microdomain/calcium-microdomain.sublime-project"
+			],
+			[
+				"calc",
+				"~/Google Drive/code/calcium-microdomian/calcium-microdomain.sublime-project"
+			],
+			[
+				"da",
+				"~/code/sublime-text/DA.sublime-project"
+			],
+			[
+				"spik",
+				"~/code/sublime-text/spikesort.sublime-project"
+			],
+			[
+				"kon",
+				"~/code/sublime-text/kontroller2.sublime-project"
+			],
+			[
+				"odo",
+				"~/code/sublime-text/odor-delivery.sublime-project"
+			],
+			[
+				"mtoo",
+				"~/code/sublime-text/mtools.sublime-project"
+			],
+			[
+				"fly",
+				"~/code/sublime-text/flywalk.sublime-project"
+			],
+			[
+				"iff",
+				"~/code/sublime-text/fitFilter2Data.sublime-project"
+			],
+			[
+				"fot",
+				"~/code/sublime-text/fitFilter2Data.sublime-project"
+			],
+			[
+				"fitFi",
+				"~/code/sublime-text/fitFilter2Data.sublime-project"
+			],
+			[
+				"fit",
+				"~/code/sublime-text/fitFilter2Data.sublime-project"
+			],
+			[
+				"mto",
+				"~/code/sublime-text/mtools.sublime-project"
+			],
+			[
+				"m",
+				"~/code/sublime-text/mtools.sublime-project"
+			],
+			[
+				"mt",
+				"~/code/sublime-text/mtools.sublime-project"
+			],
+			[
+				"bh",
+				"~/code/sublime-text/bhtsne.sublime-project"
+			],
+			[
+				"spike",
+				"~/code/sublime-text/spikesort.sublime-project"
+			],
+			[
+				"fi",
+				"~/code/sublime-text/fitFilter2Data.sublime-project"
+			],
+			[
+				"sp",
+				"~/code/sublime-text/spikesort.sublime-project"
+			],
+			[
+				"ko",
+				"~/code/sublime-text/Kontroller.sublime-project"
+			],
+			[
+				"sri",
+				"~/code/sublime-text/srinivas.gs.sublime-project"
+			],
+			[
+				"kontroll",
+				"~/code/sublime-text/kontroller2.sublime-project"
+			],
+			[
+				"auto",
+				"~/code/sublime-text/auto-bots.sublime-project"
+			],
+			[
+				"spi",
+				"~/code/sublime-text/spikesort.sublime-project"
+			],
+			[
+				"david",
+				"~/code/sublime-text/davide.sublime-project"
+			],
+			[
+				"sr",
+				"~/code/sublime-text/srinivas.gs.sublime-project"
+			],
+			[
+				"s",
+				"~/code/sublime-text/spikesort.sublime-project"
+			],
+			[
+				"srini",
+				"~/code/sublime-text/srinivas.gs.sublime-project"
+			],
+			[
+				"spikeso",
+				"~/code/sublime-text/spikesort.sublime-project"
+			],
+			[
+				"mtools",
+				"~/code/sublime-text/mtools.sublime-project"
+			],
+			[
+				"che",
+				"~/code/sublime-text/chemotaxis.sublime-project"
+			],
+			[
+				"chem",
+				"~/code/sublime-text/chemotaxis.sublime-project"
+			],
+			[
+				"tfa",
+				"~/code/sublime-text/tfa.sublime-project"
+			],
+			[
+				"inc",
+				"~/code/income-dist/inc-dist.sublime-project"
+			],
+			[
+				"Ko",
+				"~/code/Kontroller/Kontroller.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 224.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

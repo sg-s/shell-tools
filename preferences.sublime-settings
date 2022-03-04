@@ -1,0 +1,61 @@
+{
+	"always_show_minimap_viewport": true,
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip",
+		"*.mexmaci64"
+	],
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+	"dictionary": "Packages/Language - English/en_UK.dic",
+	"font_face": "Fira Code Medium",
+	"font_options":
+	[
+		"gray_antialias"
+	],
+	"font_size": 19,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_padding_bottom": 0.5,
+	"line_padding_top": 0.5,
+	"material_theme_accent_red": true,
+	"material_theme_appbar_red": true,
+	"material_theme_bold_tab": true,
+	"material_theme_panel_separator": true,
+	"overlay_scroll_bars": "enabled",
+	"paths":
+	{
+		"linux":
+		[
+		],
+		"osx":
+		[
+			"/Applications/MATLAB_R2017b.app/bin/maci64",
+			"/usr/local/bin/proselint"
+		],
+		"windows":
+		[
+		]
+	},
+	"remember_full_screen": true,
+	"scroll_past_end": true,
+	"scroll_speed": 4,
+	"spell_check": true,
+	"theme": "Material-Theme.sublime-theme",
+	"word_wrap": true
+}

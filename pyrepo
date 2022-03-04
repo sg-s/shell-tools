@@ -1,0 +1,79 @@
+#!/bin/bash
+# this shell script
+# sets up a new repo 
+# for python development with
+# some handy things already setup
+#
+# usage:
+# 
+# pyrepo <name>
+
+
+if [ -d .git ]; then
+  echo "In git repo, aborting"
+  exit 1
+else
+  echo "Not in git repo, proceeding..."
+fi;
+
+
+if [ $# -eq 0 ]
+  then
+    echo "No arguments supplied. What do you want to name your new python project?"
+    exit 1
+fi
+
+
+mkdir $1
+
+SCRIPT_DIR="$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+
+cp $SCRIPT_DIR/assets/python-gitignore.txt $1/.gitignore
+
+cd $1
+git init
+
+echo \#$1 >> README.md 
+
+
+# copy over pre-commit hooks
+cp $SCRIPT_DIR/assets/python-pre-commit-hook .git/hooks/pre-commit
+cp $SCRIPT_DIR/assets/python-update-version.py .git/hooks/update_version.py
+
+chmod a+x .git/hooks/pre-commit
+chmod a+x .git/hooks/update_version.py
+
+# make sure interrogate is installed 
+pip install interrogate
+
+# create a setup.py template 
+cp $SCRIPT_DIR/assets/setup.py.template setup.py 
+
+# call the update version git hook to fix the date
+python .git/hooks/update_version.py
+
+
+# make another folder inside this one with the same name
+# and make it a package
+# replace - with _ to make it importable in python
+mkdir ${1/-/_}
+touch ${1/-/_}/__init__.py
+
+# make a tests folder
+mkdir tests
+
+
+
+# make a notebooks folder and copy over a default notebook
+# which has useful things filled out in the first cell
+# hat tip to Alec Hoyland
+mkdir notebooks
+cp $SCRIPT_DIR/assets/template.ipynb notebooks/
+
+# set up a github bot to check for docstrings
+# it's nice to also have server-side checks 
+# so that we prevent PRs with substandard code 
+mkdir .github
+mkdir .github/workflows
+cp  $SCRIPT_DIR/assets/main.yml .github/workflows/main.yml
+

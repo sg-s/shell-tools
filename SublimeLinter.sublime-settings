@@ -1,0 +1,21 @@
+// SublimeLinter Settings - User
+{
+    "paths": {
+        "linux": [],
+        "osx": [
+            "/Applications/MATLAB_R2019b.app/bin/maci64"
+        ],
+        "windows": []
+    },
+
+
+     "styles": [
+        {
+            "scope": "region.redish markup.warning.sublime_linter"
+        },
+        {
+            "mark_style": "solid_underline",
+            "icon": "pointer",
+        }
+    ]
+}
