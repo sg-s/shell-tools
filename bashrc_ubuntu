@@ -21,7 +21,14 @@ SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
 
 # make a better prompt, colours, etc. 
-PS1='($CONDA_DEFAULT_ENV) \[\e[0;33m\]\u\[\e[0m\]@\[\e[0;32m\]\h\[\e[0m\]:\[\e[0;31m\]\w\[\e[0m\] ★ '
+if [ -z "$STY" ]
+then
+      PS1='($CONDA_DEFAULT_ENV) \[\e[0;33m\]\u\[\e[0m\]@\[\e[0;32m\]\h\[\e[0m\]:\[\e[0;31m\]\w\[\e[0m\] ★ '
+else
+
+      PS1="(SCREEN) \[\e[31m\]\u\[\e[m\]\[\e[36m\]\h\[\e[m\] ★ "
+fi
+
 
 # supposedly protects against attacks via paste
 # see: https://unix.stackexchange.com/questions/309786/disable-default-copypaste-behaviour-in-bash/309798#309798
