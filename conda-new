@@ -2,8 +2,8 @@
 # makes a new conda environment 
 
 
-# if no 2nd argument is provided, default to 3.6
-PYVERSION=${2:-3.6}
+# if no 2nd argument is provided, default to 3.9
+PYVERSION=${2:-3.9}
 
 
 # conda, in its infinite wisdom, has decided that it won't
@@ -18,7 +18,9 @@ eval "$(conda shell.bash hook)"
 conda deactivate 
 
 # first, make a new env without user intervention 
-yes | conda create -n $1 python=$PYVERSION pip wheel  
+# we're using the conda-forge channel so that we can
+# get the newest versions of python
+yes | conda create -n $1 python=$PYVERSION pip wheel  -c conda-forge 
 
 
 # switch to that
