@@ -75,6 +75,9 @@ export HOMEBREW_EDITOR=subl
 # |_|        
 # 
 
+# set up homebrew
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 # git auto-completion 
 if [ -f $SCRIPT_DIR/git-completion.bash ]; then
   . $SCRIPT_DIR/git-completion.bash
@@ -123,7 +126,6 @@ fi
 
 # misc shortcuts
 alias ba='brew update && brew upgrade && brew doctor && brew cleanup'
-alias arpscan='sudo arp-scan --interface=en0 --localnet'
 
 # handy git shortcuts
 alias ga='git add -A .'
