@@ -86,6 +86,8 @@ fi
 #subl
 export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
 
+# python poetry
+export PATH="/Users/srinivas/.local/bin:$PATH"
 
 # python pipenv
 export PATH="~/.local/bin:$PATH"
@@ -95,9 +97,6 @@ export PATH="/Applications/MATLAB_R2019b.app/bin:$PATH"
 
 # Specify your defaults in this environment variable
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
-
-# homebrew
-export PATH="/usr/local/sbin:$PATH" 
 
 # https://github.com/sg-s/auto-bots
 export PATH=$SCRIPT_DIR:$PATH           
