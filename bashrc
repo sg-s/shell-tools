@@ -8,6 +8,8 @@
 #
 # Tweak the following things as needed. Warning: rearranging the order of things may break everything. 
 
+# makefile autocomplete
+complete -W "\`grep -oE '^[a-zA-Z0-9_.-]+:([^=]|$)' ?akefile | sed 's/[^a-zA-Z0-9_.-]*$//'\`" make
 
 
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
