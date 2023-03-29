@@ -1,0 +1,41 @@
+#!/opt/homebrew/bin/bash
+
+# small script that clones one drive to another using rsync
+# usage:
+# clone --from <from> --to <to>
+
+while [ $# -gt 0 ]; do
+    if [[ $1 == "--"* ]]; then
+        v="${1/--/}"
+        declare "$v"="$2"
+        shift
+    fi
+    shift
+done
+
+if [ -z ${from+x} ]; 
+then 
+    echo "--from is unset. Cannot proceed."; 
+    exit 1;
+fi
+
+if [ -z ${to+x} ]; 
+then 
+    echo "--to is unset. Cannot proceed."; 
+    exit 1;
+fi
+
+echo "Cloning from '$from' --> '$to'"
+
+
+for folder in $from* ; do
+
+    this_dest="${folder/"$from"/"$to"}" 
+
+    printf "\n\n"
+    echo $folder/ "-->" $this_dest/
+    
+
+    rsync -rahvzP --delete --ignore-existing $folder/ $this_dest/
+
+done
