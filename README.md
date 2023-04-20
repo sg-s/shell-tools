@@ -1,22 +1,6 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
 
-- [Auto-bots](#auto-bots)
-- [installation](#installation)
-  - [git-stat ```[script]```](#git-stat-script)
-  - [keep-drive-mounted ```[bot]```](#keep-drive-mounted-bot)
-  - [keep-process-running ```[bot]```](#keep-process-running-bot)
-  - [make-retina.sh `[script]`](#make-retinash-script)
-  - [share.sh `[script]`](#sharesh-script)
-  - [where-am-i.py ```[bot]```](#where-am-ipy-bot)
-  - [link-scripts `[script]`](#link-scripts-script)
-  - [netup.m ```[bot]```](#netupm-bot)
-  - [strip-mp3 ```[script]```](#strip-mp3-script)
 
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-# Auto-bots
+# shell-tools
 
 A mishmash of various scripts and bots that make life easier. Most of these scripts are `bash` scripts, but some are written in `python` or `MATLAB`
 
@@ -27,8 +11,8 @@ All files here are either `script`s or ```bot```s. ```script```s are meant to be
 If you have git installed:
 
 ```
-git clone https://github.com/sg-s/auto-bots.git
-cd auto-bots
+git clone git@github.com:sg-s/shell-tools.git
+cd shell-tools
 chmod a+x link-scripts.sh
 ./link-scripts.sh
 
@@ -36,11 +20,13 @@ chmod a+x link-scripts.sh
 
 `link-scripts` makes all the scripts here executable, and you can run them by calling their name.
 
-# Contents## copy-fonts ```[script]```
+# Contents
+
+## copy-fonts `[script]`
 
 Moving computers? Take your fonts with you. Copies fonts from commonly used folders on Mac OS X into a folder called "fonts" in your home folder so you can move it easily.
 
-## git-stat ```[script]```
+## git-stat `[script]`
 
 Tells you the status of your local repo, compared to the remote. 
 
