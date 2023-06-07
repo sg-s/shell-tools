@@ -30,9 +30,21 @@ echo "Cloning from '$from' --> '$to'"
 
 for folder in $from* ; do
 
+    if [[ -d $folder ]]; then
+        echo "$folder is a directory"
+    elif [[ -f $folder ]]; then
+        echo "$folder is a file, skipping..."
+        continue
+    else
+        echo "$folder is not valid, skipping..."
+        continue
+    exit 1
+    fi
+
     this_dest="${folder/"$from"/"$to"}" 
 
-    printf "\n\n"
+    printf "\n"
+    printf "==========================================\n"
     echo $folder/ "-->" $this_dest/
     
 

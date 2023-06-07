@@ -5,7 +5,7 @@
         <key>Label</key>
         <string>com.srinivas.jupyter</string>
         <key>Program</key>
-        <string>/Users/srinivas/code/shell-tools/keep_jupyter_running.sh</string>
+        <string>/Users/srinivas/code/shell-tools/python/keep_jupyter_running.sh</string>
         <key>RunAtLoad</key>
         <true/>
         <key>StartInterval</key>

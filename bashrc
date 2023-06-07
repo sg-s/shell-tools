@@ -101,7 +101,8 @@ export PATH="/Applications/MATLAB_R2019b.app/bin:$PATH"
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 # https://github.com/sg-s/auto-bots
-export PATH=$SCRIPT_DIR:$PATH           
+export PATH=$SCRIPT_DIR:$PATH     
+export PATH=$SCRIPT_DIR/tools:$PATH           
 
 # awesome git prompt, see: https://github.com/arialdomartini/oh-my-git
 source ~/code/oh-my-git/prompt.sh    

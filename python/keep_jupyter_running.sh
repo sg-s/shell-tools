@@ -10,7 +10,7 @@ if [[ $servers == *"token"* ]]; then
   echo "Jupyter running, nothing to do" >> ~/Desktop/log.txt
 else
   # not running, start it
-  echo "Jupyter N!!!!OT running, attempting to start..." >> ~/Desktop/log.txt
+  echo "Jupyter NOT running, attempting to start..." >> ~/Desktop/log.txt
   /Users/srinivas/opt/anaconda3/bin/jupyter lab --ip $HOSTNAME --notebook-dir ~/code/ --no-browser 
   echo "DONE"
 fi
