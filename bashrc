@@ -23,12 +23,27 @@ SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
 
 # make a better prompt, colours, etc. 
+# this shows name and hostname
+# use this to generate these:
+# https://bash-prompt-generator.org/
+# 
+# if [ -z "$STY" ]
+# then
+#       # not in screen
+#       PS1='($CONDA_DEFAULT_ENV) \[\e[0;33m\]\u\[\e[0m\]@\[\e[0;32m\]\h\[\e[0m\]:\[\e[0;31m\]\w\[\e[0m\] ★ '
+# else
+#       # in screen
+#       PS1="(SCREEN) \[\e[31m\]\u\[\e[m\]\[\e[36m\]\h\[\e[m\] ★ "
+# fi
+
+
 if [ -z "$STY" ]
 then
-      PS1='($CONDA_DEFAULT_ENV) \[\e[0;33m\]\u\[\e[0m\]@\[\e[0;32m\]\h\[\e[0m\]:\[\e[0;31m\]\w\[\e[0m\] ★ '
+      # not in screen
+      PS1='\[\e[38;5;208m\]\w\[\e[0m\] ★ '
 else
-
-      PS1="(SCREEN) \[\e[31m\]\u\[\e[m\]\[\e[36m\]\h\[\e[m\] ★ "
+      # in screen
+      PS1="PS1='\[\e[38;5;196;48;5;231m\]SCREEN\[\e[0m\]' \w ★ "
 fi
 
 
