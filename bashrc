@@ -49,7 +49,7 @@ SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 if [ "$HOSTNAME" = "tma1.local" ]; then
     PS1='\[\e[38;5;208m\]\w\[\e[0m\] ★ '
 else
-    PS1='\[\e[38;5;196m\]\w\[\e[0m\] ★'
+    PS1='\[\e[38;5;196m\]\w\[\e[0m\] ★ '
 fi
 
 # supposedly protects against attacks via paste
