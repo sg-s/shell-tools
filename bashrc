@@ -37,16 +37,20 @@ SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 # fi
 
 
-if [ -z "$STY" ]
-then
-      # not in screen
-      PS1='\[\e[38;5;208m\]\w\[\e[0m\] ★ '
+# if [ -z "$STY" ]
+# then
+#       # not in screen
+#       PS1='\[\e[38;5;208m\]\w\[\e[0m\] ★ '
+# else
+#       # in screen
+#       PS1="PS1='\[\e[38;5;196;48;5;231m\]SCREEN\[\e[0m\]' \w ★ "
+# fi
+
+if [ "$HOSTNAME" = "tma1.local" ]; then
+    PS1='\[\e[38;5;208m\]\w\[\e[0m\] ★ '
 else
-      # in screen
-      PS1="PS1='\[\e[38;5;196;48;5;231m\]SCREEN\[\e[0m\]' \w ★ "
+    PS1='\[\e[38;5;196m\]\w\[\e[0m\] ★'
 fi
-
-
 
 # supposedly protects against attacks via paste
 # see: https://unix.stackexchange.com/questions/309786/disable-default-copypaste-behaviour-in-bash/309798#309798
