@@ -131,11 +131,9 @@ export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
 # python poetry
 export PATH="/Users/srinivas/.local/bin:$PATH"
 
-# python pipenv
-export PATH="~/.local/bin:$PATH"
+# brew make
+PATH="/opt/homebrew/opt/make/libexec/gnubin:$PATH"
 
-# matlab
-export PATH="/Applications/MATLAB_R2019b.app/bin:$PATH"
 
 # Specify your defaults in this environment variable
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
@@ -176,17 +174,3 @@ alias gd='git diff --color | diff-so-fancy'
 # similarly with gp for git push because it's a complex command
 
 
-
-
-
-#    _       _ _       
-#   (_)_   _| (_) __ _ 
-#   | | | | | | |/ _` |
-#   | | |_| | | | (_| |
-#  _/ |\__,_|_|_|\__,_|
-# |__/                 
-
-
-export JULIA_NUM_THREADS=8
-
-alias pluto='julia -e "using Pluto; Pluto.run()"'
