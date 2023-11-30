@@ -129,7 +129,7 @@ fi
 export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
 
 # python poetry
-export PATH="/Users/srinivas/.local/bin:$PATH"
+# export PATH="/Users/srinivas/.local/bin:$PATH"
 
 # brew make
 PATH="/opt/homebrew/opt/make/libexec/gnubin:$PATH"
