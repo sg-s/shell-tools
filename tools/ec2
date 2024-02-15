@@ -1,0 +1,20 @@
+# read instance ID from file
+IID=$(cat ~/.aws/instances)
+
+
+# get instance state by trying to start it
+status=$(aws ec2 start-instances --instance-ids $IID | jq -r '.StartingInstances[0].CurrentState.Name')
+
+while [ "$status" = "pending" ]; do
+
+    echo "Waiting..."
+
+    # Add a sleep to avoid high CPU usage in a real scenario
+    sleep 1
+
+    status=$(aws ec2 start-instances --instance-ids $IID | jq -r '.StartingInstances[0].CurrentState.Name')
+done
+
+echo "Instance $IID has status: $status"
+
+ssh ec2
