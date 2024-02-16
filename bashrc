@@ -132,7 +132,10 @@ export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
 # export PATH="/Users/srinivas/.local/bin:$PATH"
 
 # brew make
-PATH="/opt/homebrew/opt/make/libexec/gnubin:$PATH"
+export PATH="/opt/homebrew/opt/make/libexec/gnubin:$PATH"
+
+# rust stuff 
+export PATH="/Users/srinivas/.cargo/bin:$PATH"
 
 
 # Specify your defaults in this environment variable
