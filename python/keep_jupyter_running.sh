@@ -12,6 +12,6 @@ if [[ $servers == *"token"* ]]; then
 else
   # not running, start it
   echo "Jupyter NOT running, attempting to start..." >> ~/Library/logs/jupyter.log
-  /opt/homebrew/bin/jupyter lab  --notebook-dir ~/code/ --no-browser 
+  /opt/homebrew/bin/jupyter lab  --port 8888 --ip $HOSTNAME --notebook-dir ~/code/ --no-browser 
   echo "DONE"
 fi
