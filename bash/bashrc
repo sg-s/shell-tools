@@ -125,7 +125,9 @@ fi
 # 
 
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
-    echo "on linux/gnu"
+    # linux-like OS
+    export PATH="/home/ubuntu/.local/bin:$PATH"
+
 elif [[ "$OSTYPE" == "darwin"* ]]; then
     # macOS
 
