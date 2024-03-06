@@ -30,6 +30,6 @@ r=$((r+1))
 # show the font
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
     figlet -f "${font[$r]}" -d /usr/share/figlet/fonts/ $cn
-else; then
+else
     figlet -f "${font[$r]}" $cn
 fi
