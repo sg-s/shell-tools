@@ -2,7 +2,7 @@
 export BASH_SILENCE_DEPRECATION_WARNING=1
 
 case $- in
-    *i*) source ~/code/shell-tools/bashrc # fix this path to point to where this file is
+    *i*) source ~/code/shell-tools/bash/bashrc # fix this path to point to where this file is
 esac
 
 # overwrite cd if zoxide is installed
