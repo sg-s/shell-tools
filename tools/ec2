@@ -17,4 +17,19 @@ done
 
 echo "Instance $IID has status: $status"
 
+while true; do
+    # check if ssh connection works
+    ssh ec2 :
+
+    # Check the exit status of the command
+    if [ $? -eq 0 ]; then
+        # If the command succeeded, break out of the loop
+        break
+    else
+        # If the command failed, display a message and sleep for a while before retrying
+        echo "SSH connection failure."
+        sleep 1
+    fi
+done
+
 ssh ec2
