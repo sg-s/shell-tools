@@ -1,0 +1,28 @@
+[init]
+    defaultBranch = main
+[user]
+    name = Srinivas Gorur-Shandilya
+    email = code@srinivas.gs
+	signingkey = ~/.ssh/zorya.pub
+[url "git@github.com:"]
+    insteadOf = https://github.com/
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[push]
+	autosetupremote = true
+[url "ssh://git@github.com/"]
+	insteadOf = https://github.com/
+[core]
+	editor = subl -n -w
+	excludeFiles = ~/code/shell-tools/config/gitignore
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true
+[rerere]
+	enabled = true
+[help]
+	autocorrect = 10
