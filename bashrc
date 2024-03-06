@@ -69,6 +69,9 @@ SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
 if [ "$HOSTNAME" = "tma1.local" ]; then
     PS1='\[\e[38;5;208m\]\w\[\e[0m\] ★ '
+elif [ "$USER" = "ubuntu" ];
+    # aws?
+    PS1='\[\e[38;5;208m\]\w\[\e[0m\] 🤑 '
 else
     PS1='\[\e[38;5;196m\]\w\[\e[0m\] ★ '
 fi
@@ -102,10 +105,13 @@ set show-all-if-ambiguous on
 set completion-ignore-case on
 
 
-# set default text editor to subl
-export EDITOR='sublw'
-export VISUAL='sublw'
-export HOMEBREW_EDITOR=subl
+if [[ "$OSTYPE" == "darwin"* ]]; then
+    # set default text editor to subl
+    export EDITOR='sublw'
+    export VISUAL='sublw'
+    export HOMEBREW_EDITOR=subl
+
+fi
 
 
 
@@ -117,37 +123,44 @@ export HOMEBREW_EDITOR=subl
 # |_|        
 # 
 
-# set up homebrew
-eval "$(/opt/homebrew/bin/brew shellenv)"
+if [[ "$OSTYPE" == "linux-gnu"* ]]; then
+        # ...
+elif [[ "$OSTYPE" == "darwin"* ]]; then
+    # macOS
+
+    # set up homebrew
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+
+    # subl
+    export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
+
+    # brew make
+    export PATH="/opt/homebrew/opt/make/libexec/gnubin:$PATH"
+
+
+    # rust stuff 
+    export PATH="/Users/srinivas/.cargo/bin:$PATH"
+
+
+    # make homebrew cask install in root applications
+    export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+
+fi
+
+
 
 # git auto-completion 
 if [ -f $SCRIPT_DIR/git-completion.bash ]; then
   . $SCRIPT_DIR/git-completion.bash
 fi
 
-#subl
-export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
 
-# python poetry
-# export PATH="/Users/srinivas/.local/bin:$PATH"
-
-# brew make
-export PATH="/opt/homebrew/opt/make/libexec/gnubin:$PATH"
-
-# rust stuff 
-export PATH="/Users/srinivas/.cargo/bin:$PATH"
-
-
-# Specify your defaults in this environment variable
-export HOMEBREW_CASK_OPTS="--appdir=/Applications"
-
-# https://github.com/sg-s/auto-bots
+# add tools and script dir to path so those things are available
 export PATH=$SCRIPT_DIR:$PATH     
 export PATH=$SCRIPT_DIR/tools:$PATH           
 
 # awesome git prompt, see: https://github.com/arialdomartini/oh-my-git
 source ~/code/oh-my-git/prompt.sh    
-
 
 
 # show the computer name in a cool font (using figlet)
@@ -161,14 +174,19 @@ computer-name
 # \__ \ | | | (_) | |  | || (__| |_| | |_\__ \
 # |___/_| |_|\___/|_|   \__\___|\__,_|\__|___/
 # 
+
+
+if [[ "$OSTYPE" == "darwin"* ]]; then
                                             
-if [ -f $(brew --prefix)/etc/bash_completion ]; then
-. $(brew --prefix)/etc/bash_completion
+    if [ -f $(brew --prefix)/etc/bash_completion ]; then
+    . $(brew --prefix)/etc/bash_completion
+    fi
+
+
+    # misc shortcuts
+    alias ba='brew update && brew upgrade && brew doctor && brew cleanup'
+
 fi
-
-
-# misc shortcuts
-alias ba='brew update && brew upgrade && brew doctor && brew cleanup'
 
 # handy git shortcuts
 alias ga='git add -A .'
