@@ -1,0 +1,4 @@
+# read instance ID from file
+IID=$(cat ~/.aws/instances)
+
+aws ec2 stop-instances --instance-ids $IID
