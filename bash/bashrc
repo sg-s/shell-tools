@@ -195,6 +195,9 @@ fi
 # handy git shortcuts
 alias ga='git add -A .'
 alias gd='git diff --color | diff-so-fancy'
+
+# delete all merged branches, except main, dev, gh-pages
+alias dam='git branch | grep -i -v -E "main|dev|gh-pages" | xargs git branch -d'
 # gc is a shortcut for git commit and is stored elsewhere
 # similarly with gp for git push because it's a complex command
 
