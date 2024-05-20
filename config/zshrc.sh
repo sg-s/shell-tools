@@ -32,7 +32,7 @@ zinit light zsh-users/zsh-autosuggestions
 zinit light Aloxaf/fzf-tab
 
 # Add in snippets
-zinit snippet OMZP::git
+# zinit snippet OMZP::git # not using this because i have my own
 zinit snippet OMZP::sudo
 zinit snippet OMZP::archlinux
 zinit snippet OMZP::aws
@@ -88,3 +88,17 @@ alias ba='brew update && brew upgrade && brew doctor && brew cleanup'
 # Shell integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
+
+
+# homebrew completions
+if type brew &>/dev/null; then
+  FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
+
+  autoload -Uz compinit
+  compinit
+fi
+
+# you may need to do this if you get errors or warnings:
+# rm -f ~/.zcompdump; compinit
+# chmod go-w '/opt/homebrew/share'
+# chmod -R go-w '/opt/homebrew/share/zsh'

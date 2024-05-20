@@ -11,6 +11,9 @@ export PATH=$REPO_DIR/git:$PATH
 
 export PATH="$HOME/.local/bin":$PATH
 
+# deeporigin paths
+export PATH="$HOME/.deeporigin:$PATH"
+
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
     # linux-like OS
     export PATH="/home/ubuntu/.local/bin:$PATH"
